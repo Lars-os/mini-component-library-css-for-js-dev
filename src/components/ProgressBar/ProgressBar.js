@@ -9,19 +9,16 @@ const ProgressBar = ({ value, size }) => {
 
   const styles = {
     small: {
-      "--width": 370 + "px",
       "--height": 8 + "px",
       "--padding": 0,
       "--border-radius": 0
     },
     medium: {
-      "--width": 370 + "px",
       "--height": 12 + "px",
       "--padding": 0,
       "--border-radius": 0
     },
     large: {
-      "--width": 370 + "px",
       "--height": 24 + "px",
       "--padding": 4 + "px",
       "--border-radius": value >= 99.8 ? 4/16 + "rem" : 4/16 + "rem 0 0 " + 4/16 + "rem"
